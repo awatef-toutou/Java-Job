@@ -3,12 +3,25 @@ public class job3 {
     static void main(String[] args) {
 
         for(int i= 0; i<= 100; i++)
-        { while (i)
-            System.out.println(i);
+        {
+          if( i<= 20) {
+                System.out.print("_"+i+"_ ");
+          } else if (i>20 && i<50 ) {
+                System.out.print("__"+i+"__");
+                  if (i == 42)
+                  {
+                      System.out.print("La Plateforme_"+i);
+                  }
+          }
+          else {
+              System.out.print(" "+i+" ");
+          }
+          }
+          
         }
 
 
 
 
     }
-}
+
