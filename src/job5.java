@@ -2,17 +2,17 @@ public class job5 {
 
     static void main(String[] args) {
 
-        for( int i=0; i<=1000; i++)
+        for( int i=2; i<=1000; i++)
           {
-              for(int j = 2 ; j<i ; j++ )
+              boolean premier = true;
+              for(int j = 2 ; j<=Math.sqrt(i) ; j++ )
               {
                   if(i % j == 0) {
+                      premier  =false;
                       break;
-                  } else {
-                      System.out.println(i);
                   }
-
               }
+              if (premier) System.out.println(i);
           }
 
 
