@@ -4,20 +4,20 @@ public class job3 {
 
         for(int i= 0; i<= 100; i++)
         {
-          if( i<= 20) {
+            if (i == 42)
+            {
+                System.out.print("La Plateforme_");
+            }
+            else if( i<= 20) {
                 System.out.print("_"+i+"_ ");
-          } else if (i>20 && i<50 ) {
+           } else if (i > 20 && i<50 ) {
                 System.out.print("__"+i+"__");
-                  if (i == 42)
-                  {
-                      System.out.print("La Plateforme_"+i);
-                  }
-          }
-          else {
+           }
+           else {
               System.out.print(" "+i+" ");
           }
           }
-          
+
         }
 
 
