@@ -1,3 +1,5 @@
+package Boucle;
+
 import java.util.Scanner;
 
 public class job2 {
