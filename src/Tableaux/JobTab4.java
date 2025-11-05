@@ -1,3 +1,5 @@
+package Tableaux;
+
 public class JobTab4 {
 
     public static void main(String[] args){

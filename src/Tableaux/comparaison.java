@@ -1,4 +1,4 @@
-
+package Tableaux;
 
 import java.util.Scanner;
 public class comparaison {

@@ -1,3 +1,5 @@
+package Tableaux;
+
 public class JobTab8 {
     public static void main(String[] args) {
         // sort the array elements from smallest to largest

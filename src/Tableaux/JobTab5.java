@@ -1,3 +1,5 @@
+package Tableaux;
+
 public class JobTab5 {
     public static void main(String[] args)
     {  //calculer le nombre des voyelles et des consonnes dans la chaine de caractéres

@@ -1,3 +1,5 @@
+package Methodes;
+
 public class Job5 {
     static int occurrences(String str, char c)
     {   int count =0;

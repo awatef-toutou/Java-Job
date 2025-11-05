@@ -1,3 +1,5 @@
+package Methodes;
+
 public class Job6 {
     public static void main(String[] args) {
      leetSpeak("AWATEF");

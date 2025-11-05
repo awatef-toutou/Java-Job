@@ -1,3 +1,5 @@
+package Tableaux;
+
 public class JobTab3 {
     public static void main(String[] args) {
         //afficher que les voyelles de la chaine de caractéres

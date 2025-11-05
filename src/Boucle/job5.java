@@ -1,3 +1,5 @@
+package Boucle;
+
 public class job5 {
 
     static void main(String[] args) {

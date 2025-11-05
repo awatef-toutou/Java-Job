@@ -1,3 +1,5 @@
+package Tableaux;
+
 public class JobTab7 {
     public static void main(String[] args) {
         //Switch index

@@ -1,3 +1,5 @@
+package Methodes;
+
 public class Job3 {
     public static void main(String[] args) {
     getHello();

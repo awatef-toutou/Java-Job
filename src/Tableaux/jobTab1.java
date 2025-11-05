@@ -1,3 +1,5 @@
+package Tableaux;
+
 public class jobTab1 {
 
 

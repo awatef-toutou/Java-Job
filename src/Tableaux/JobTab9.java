@@ -1,3 +1,5 @@
+package Tableaux;
+
 import java.util.Scanner;
 
 public class JobTab9 {

@@ -1,3 +1,5 @@
+package Boucle;
+
 import javax.xml.transform.Source;
 import java.util.OptionalLong;
 import java.util.Scanner;

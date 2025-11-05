@@ -1,3 +1,5 @@
+package Tableaux;
+
 public class JobTab6 {
     public static void main(String[] args)
     { //afficher la chaine à l envers

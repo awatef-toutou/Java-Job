@@ -1,3 +1,5 @@
+package Tableaux;
+
 import java.util.Scanner;
 public class somme {
     public static void main (String[] args) {

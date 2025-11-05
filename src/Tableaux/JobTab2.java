@@ -1,3 +1,5 @@
+package Tableaux;
+
 public class JobTab2 {
     public static void main(String[] args)
     { //afficher les index pairs de la chaine de caractére
