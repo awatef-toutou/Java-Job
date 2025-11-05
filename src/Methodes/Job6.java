@@ -6,8 +6,11 @@ public class Job6 {
     }
 
     static String leetSpeak(String str) {
+
         String result = "";
+
         char[] tab = str.toCharArray();
+
         for (int i = 0; i < tab.length; i++) {
             if (tab[i] == 'A') {
                 tab[i] = '4';
@@ -24,7 +27,7 @@ public class Job6 {
             } else if (tab[i] == 'T') {
                 tab[i] = '7';
             }
-            result += tab[i]; //construire un tableau de chaine de carater a partir des resultats
+            result += tab[i]; //attribute tab[i] to result ( element of tab to string)
         }
         return result;
     }

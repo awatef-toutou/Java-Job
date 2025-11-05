@@ -40,27 +40,29 @@ public class Job7 {
     }
 
 
-//    static String plateforme(String str) {
-//        String[] tab = str.split(" ");
-//        for (String word : tab) {
-//            char[] charWord = word.toCharArray();
-//            for (char me : charWord)
-//            {
-//                if (word == "me")
-//                {
-//
-//                }
-//            }
+    static String plateforme(String str) {
+        String sorti = "";
+        String[] tab = str.split(" ");
 
-//        }
-//
-//
-//    }
+        for (String word : tab) {
+            String[] charWord = {};
+            for (String mot : charWord)
+            {
+                if (mot == "me")
+                {
+                  sorti+=word+"_";
+                }
+            }
+
+        }return sorti;
+
+
+    }
 
     public static void main(String[] args){
         System.out.println(gras("Maj pazzz test"));
-        System.out.println(cesar("a",3));
-
+        System.out.println(cesar("ABXY" ,3));
+        System.out.println(plateforme("je t'aime tout de meme"));
     }
 }
  // le travail à moi
