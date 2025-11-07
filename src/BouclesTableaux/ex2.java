@@ -1,11 +1,9 @@
 package BouclesTableaux;
 
-import java.util.Scanner;
-
-public class P1ex2 {
+public class ex2 {
     public static void main (String[] args)
     {
-        P1ex2.fibonacci(8);
+        ex2.fibonacci(8);
     }
      static void fibonacci(int N) {
          int f0 = 0;
