@@ -12,25 +12,23 @@ public class ex11 {
     {
         Scanner c= new Scanner(System.in);
         int choice ;
-        int tem ;
         do{
             System.out.println("****converter of temperature****");
+            System.out.println("enter your temperature: ");
+            int tem= c.nextInt();
             System.out.println("1-Celsius to Fahrenhei");
             System.out.println("2-Fahrenheit to Celsius");
             System.out.println("3-Exit");
-            System.out.println("enter your temperature: ");
-            tem= c.nextInt();
+
             System.out.println("enter your choice: ");
             choice = c.nextInt();
-            int F;
-            int C;
         if(choice == 1)
             {
-               F= (C * (9/5)) + 32;
-                System.out.println(""+F);
+               int temf= (tem * (9/5)) + 32;
+                System.out.println(""+temf);
             } else if  (choice == 2) {
-              C = (F - 32) * (5/9);
-            System.out.println(""+C);
+              int tempc = (tem- 32) * (5/9);
+            System.out.println(""+tempc);
            }
 
 
