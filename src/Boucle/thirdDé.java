@@ -1,8 +1,6 @@
 package Boucle;
 
-import javax.xml.transform.Source;
 import java.awt.*;
-import java.util.OptionalLong;
 import java.util.Scanner;
 
 public class thirdDé {
