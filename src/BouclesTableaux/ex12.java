@@ -19,9 +19,9 @@ public class ex12 {
         System.out.println("----------------------------------------------");
         boolean verify = false;
         int count = 0;
-            for (int z : passwdTab) {
-                for (int y : guessTab) {
-                    if (z == y) {
+            for (int i : passwdTab) {
+                for (int j : guessTab) {
+                    if (i == j) {
                         count++;
                     }
                 }
@@ -30,8 +30,8 @@ public class ex12 {
                 System.out.println("password correct");
             } else {
                 System.out.println("password false!");
-                System.out.println("try again ");
-                guess = c.nextLine(); // I want to restart the operation !!!!!
+                //System.out.println("try again ");
+                //guess = c.nextLine(); // I want to restart the operation !!!!!
             }
 
     }
