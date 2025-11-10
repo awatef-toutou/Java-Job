@@ -1,5 +1,7 @@
 package BouclesTableaux;
 
+import javax.swing.plaf.OptionPaneUI;
+import javax.swing.plaf.synth.SynthOptionPaneUI;
 import java.util.Scanner;
 
 public class ex15 {
@@ -11,34 +13,35 @@ public class ex15 {
     {
         Scanner c = new Scanner(System.in);
         int [] Tab =  new int[8];
-
+        System.out.println("--------you have to input 8 elements--------");
         for (int i=0; i<Tab.length; i++)
         {
             System.out.print("enter element n°"+i+" is: "); //create the array
             Tab[i]=c.nextInt();
         }
-
+        System.out.println("-------------------------------------------");
         System.out.println("Elements of the array: ");//display the array
         for (int i :Tab)
         {
-            System.out.print("|"+i+"|");
+            System.out.print(i+"|");
         }
 
         System.out.println();
-
-        for (int i = 0; i < Tab.length; i++) // browse the tab
-        {
-            int smallest = i; //define the index i as the smallest by default
-            for (int j = i + 1; j < Tab.length; j++) // j the index for smallest
+        System.out.println("-------------------------------------------");
+        int index = 0; //define the index i as the smallest by default
+        int smallest =Tab[0];
+            for (int i = 0; i < Tab.length; i++) // j the index for smallest
             {
-                if (Tab[j] < Tab[smallest]) //we compare the smallest to the new index
+                if (Tab[i] < smallest) //we compare the smallest to the new index
                 {
-                    smallest = j;// if true so the index j become the new smallest
+                    smallest=Tab[i];
+                    index = i;// if true so the index j become the new smallest
+
                 }
             }
-            System.out.println("the smallest element is : "+Tab[smallest]);
-            System.out.println("the index of the smallest element is : "+smallest);
+            System.out.println("the smallest element is : "+smallest+" index: "+index);
+        System.out.println("-------------------------------------------");
+
         }
-    }
 
 }
