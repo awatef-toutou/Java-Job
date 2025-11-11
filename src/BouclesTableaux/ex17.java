@@ -35,3 +35,6 @@ public class ex17 {
         System.out.println("number of null integer is "+negative);
     }
 }
+
+
+

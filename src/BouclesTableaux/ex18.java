@@ -3,32 +3,34 @@ package BouclesTableaux;
 import java.util.Scanner;
 
 public class ex18 {
-    public static void main()
+    public static void main(String[] args)
     {
-    inverse();
+     displayarray();
     }
-    static void inverse ()
+
+    static void displayarray()
     {
-        Scanner c =new Scanner(System.in);
-        int [] Tab = new int[7];
-        int [] Tabinverse = new int[7];
-        System.out.println("-------------enter element of your array-------------");
-        for (int i=0; i< Tab.length; i++) {
-            System.out.print("n° " + i + " est : ");
-            Tab[i] = c.nextInt();
-
-        }
-        System.out.println("the array: ");
-        for (int i :Tab)
-        {
-            System.out.print("|"+i+" ");
-        }
-        System.out.println();
-        System.out.println("the array inversed ");
-        for (int j= Tab.length-1; j< Tab.length; j--)
-        {
-            System.out.print("|"+Tab[j]+" ");
+        Scanner c = new Scanner(System.in);
+        System.out.println("----------------------------------------");
+        System.out.println("enter the number of element: ");
+        int n= c.nextInt();//input the length of the array
+        int []Tab = new int [n];
+        System.out.println("----------------------------------------");
+        if (n<=10) {  //I want to know how to use while "
+            for (int i = 0; i < n ; i++) {
+                System.out.print("n°" + i + " : ");
+                Tab[i]= c.nextInt();  //fill the array
+            }
+            System.out.println("----------------------------------------");
+            System.out.println("the array: ");
+            for (int i : Tab) {
+                System.out.print("|" + i + " ");//display the array
+            }
+        }else {
+            System.out.println("----------------------------------------");
+            System.out.println("error");
         }
 
     }
+
 }
