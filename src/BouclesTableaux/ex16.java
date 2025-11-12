@@ -24,7 +24,7 @@ public class ex16 {
         {
            somme = somme +i;
         }
-        moy = somme/5;
+        moy = somme/ notes.length;
         System.out.println("-----------------------------------------");
         System.out.println(" the average is : "+moy);
         for (int i=0;i< notes.length;i++)
