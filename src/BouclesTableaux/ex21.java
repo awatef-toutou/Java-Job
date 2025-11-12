@@ -20,8 +20,5 @@ public class ex21 {
                 count++;
             }
         }System.out.println("occurrence of "+number+" is : "+count);
-
-
-
     }
 }
