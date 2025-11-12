@@ -11,23 +11,25 @@ public class ex26 {
         int count16=0;
         int count12=0;
         int count10=0;
-        int countlow10=0;
+        int countunder10=0;
         int i=0;
-            while (i <= Tab.length) {
-
-                count16++;
-            }
-            System.out.println(count16 + " student have very good mention");
-            while (v >= 12) {
-                count12++;
-            }
-            System.out.println(count + " student have good mention");
-            while (v >= 10) {
-                count++;
-            }
-            System.out.println(count + " student have passable mention");
-
+        while (i< Tab.length)
+        {
+            if(Tab[i]<10)
+            {countunder10++;}
+            if((Tab[i]>=10)&&(Tab[i]<12))
+            {count10++;}
+            if((Tab[i]>=12)&&(Tab[i]<16))
+            {count12++;}
+            if(Tab[i]>=16)
+            {count16++;}
+            i++;
+        }
+        System.out.println("number of student have failure: "+countunder10);
+        System.out.println("number of student have passable mention: "+count10);
+        System.out.println("number of student have good mention: "+count12);
+        System.out.println("number of student have very good mention: "+count16);
 
         }
-    }
+
 }

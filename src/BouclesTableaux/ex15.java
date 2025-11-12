@@ -23,14 +23,14 @@ public class ex15 {
         System.out.println("Elements of the array: ");//display the array
         for (int i :Tab)
         {
-            System.out.print(i+"|");
+            System.out.print(i+" | ");
         }
 
         System.out.println();
         System.out.println("-------------------------------------------");
         int index = 0; //define the index i as the smallest by default
         int smallest =Tab[0];
-            for (int i = 0; i < Tab.length; i++) // j the index for smallest
+            for (int i = 1; i < Tab.length; i++) // j the index for smallest
             {
                 if (Tab[i] < smallest) //we compare the smallest to the new index
                 {

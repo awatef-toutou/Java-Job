@@ -13,7 +13,7 @@ public class ex22 {
         System.out.println("----------------------------------------");
         for (int i: Tab)
         {
-            System.out.print("|"+i+"|");
+            System.out.print(i+" | ");
         }
         System.out.println();
         System.out.println("----------------------------------------");
@@ -21,7 +21,7 @@ public class ex22 {
         System.arraycopy(Tab, 0, newTab, 0, Tab.length);
         for (int i: newTab)
         {
-            System.out.print("|"+i+"|");
+            System.out.print(i+" | ");
         }
     }
 }

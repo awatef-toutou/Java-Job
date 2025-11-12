@@ -30,14 +30,9 @@ public class ex16 {
         for (int i=0;i< notes.length;i++)
         {
             System.out.println("-----------------------------------------");
-            ecart = Math.abs(moy-notes[i]);
+            ecart = notes[i]-moy;
             System.out.println("note n°"+i+": "+notes[i]+",ecart: "+ecart);
-
         }
-
-
-
-
     }
 
 

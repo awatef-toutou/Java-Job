@@ -5,8 +5,8 @@ import java.util.Scanner;
 
 public class ex13 {
     public static void main(String[] args)
-    {doubleTab();
-
+    {
+        doubleTab();
     }
     static void doubleTab()
     {
@@ -14,8 +14,10 @@ public class ex13 {
         Scanner c = new Scanner(System.in);
         System.out.println("enter the size of your array: ");
         int size= c.nextInt();
+
         System.out.print("Elements");
         System.out.println("----------------------------------");
+
         int [] Tab = new int[size];
         int [] doubleTab = new int[size];
         for ( int i=0;i<size;i++)

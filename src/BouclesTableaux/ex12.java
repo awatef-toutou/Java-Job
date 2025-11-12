@@ -17,7 +17,7 @@ public class ex12 {
         String guess = c.nextLine();//input of the password guessed by user
         char[] guessTab = guess.toCharArray();
         System.out.println("----------------------------------------------");
-        boolean verify = false;
+        //boolean verify = false;
         int count = 0;
             for (int i : passwdTab) {
                 for (int j : guessTab) {
