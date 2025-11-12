@@ -1,5 +1,5 @@
 package classJava;
-
+//class
 public class Personne {
     int age;
     String  nom;
@@ -8,6 +8,7 @@ public class Personne {
     String genre;
     String villenatale;
 
+    //constructeur
     public Personne(int age, String nom , String prenom, double taille,String genre, String villenatale)
     {
         this.age=age;
@@ -24,19 +25,3 @@ public class Personne {
     }
 }
 
-
-
-//public int getAge()
-//    {return age;}
-//
-//    public String getNom()
-//    {return nom;}
-//
-//    public String getPrenom()
-//    {return prenom;}
-//
-//    public double getTaille()
-//    {return taille;}
-//
-//    public String getGenre()
-//    {return genre;}

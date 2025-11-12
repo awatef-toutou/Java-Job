@@ -28,6 +28,5 @@ public class ex19 {
         {
             System.out.print("|"+Tab[j]+" ");
         }
-
     }
 }

@@ -21,10 +21,8 @@ public class ex20 {
             if (Tab[i]==number) {
                 System.out.println("----------------------------------------");
                 System.out.println("it exist at the index n°: " + i);
-            }else {
-                System.out.println("don't exist");
-                break;
+           return; // to stop
             }
-        }
+        }System.out.println("don't exist");
     }
 }
