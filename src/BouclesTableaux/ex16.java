@@ -10,10 +10,10 @@ public class ex16 {
     static void ecartype()
     {
         int [] notes = new int [5];
-        int moy=0;
+        int moy;
         Scanner c =new Scanner(System.in);
         int somme =0;
-        int ecart =0;
+        int ecart;
         System.out.println("-------------enter element of your array-------------");
         for (int i=0; i< notes.length; i++)
         {

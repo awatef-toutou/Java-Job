@@ -32,9 +32,7 @@ public class ex17 {
         }
         System.out.println("number of negative integer is "+negative);
         System.out.println("number of positive integer is "+positive);
-        System.out.println("number of null integer is "+negative);
+        System.out.println("number of null integer is "+nulll);
     }
 }
-
-
 
