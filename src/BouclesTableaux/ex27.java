@@ -5,10 +5,10 @@ public class ex27 {
     {
       compare();
     }
-
+//il faut refaire il y a une erreur sur les index je dois changer les bou
     static void compare() {
-        int[] Tab1 = {12, 34, 7, 98, 1, 0, 45};
-        int[] Tab2 = {12, 34, 7, 98, 1, 0, 45};
+        int[] Tab1 = {12, 5, 34, 98, 1, 0, 45};
+        int[] Tab2 = {12, 34, 5, 98, 1, 0, 45};
         int count = 0;
         for (int i : Tab1) {
             for (int j : Tab2) {
@@ -22,6 +22,5 @@ public class ex27 {
         } else {
             System.out.println("they are not identical");
         }
-
     }
 }

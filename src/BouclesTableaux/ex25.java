@@ -3,9 +3,9 @@ package BouclesTableaux;
 public class ex25 {
     public static void main(String[] args)
     {
-        temerature();;
+        temperature();;
     }
-    static void temerature()
+    static void temperature()
     {
         int [] Tab = {23,6,8,39,20,29,42};
         int tmoy;
@@ -14,7 +14,7 @@ public class ex25 {
         {
             somme = somme +i;
         }
-        tmoy = somme/7;
+        tmoy = somme/ Tab.length;
         System.out.println("the average is: "+tmoy);
 
         int coldest =Tab[0];

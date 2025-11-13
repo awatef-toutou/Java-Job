@@ -25,10 +25,10 @@ public class ex26 {
             {count16++;}
             i++;
         }
-        System.out.println("number of student have failure: "+countunder10);
-        System.out.println("number of student have passable mention: "+count10);
-        System.out.println("number of student have good mention: "+count12);
-        System.out.println("number of student have very good mention: "+count16);
+        System.out.println("student have failure: "+countunder10);
+        System.out.println("student have passable mention: "+count10);
+        System.out.println("student have good mention: "+count12);
+        System.out.println("student have very good mention: "+count16);
 
         }
 

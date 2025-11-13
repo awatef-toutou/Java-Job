@@ -1,4 +1,4 @@
-package classJava;
+package classJava.test;
 
 public class Marque {
     String marque; // tne variable of class

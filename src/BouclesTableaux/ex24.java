@@ -21,9 +21,9 @@ public class ex24 {
                 j++;
             }count++;
         }
-        System.out.println("number of even numbers is: "+countp);
+        System.out.println("number of even is: "+countp);
         countn=count-countp;
-        System.out.println("number of odd numbers is : "+countn);
+        System.out.println("number of odd is : "+countn);
     }
 
 }

@@ -1,4 +1,4 @@
-package classJava;
+package classJava.test;
 
 public class Constructor {
     String constru;

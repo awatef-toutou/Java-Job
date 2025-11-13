@@ -8,17 +8,29 @@ public class ex28 {
     static void even ()
     {
         int [] Tab ={6,19,12,15,11,16,4,7,14,17,5,3};
-        int [] evenTab = new int[Tab.length];
         System.out.println("the even number are: ");
-        for (int i=0; i< Tab.length;i++)
+
+        int size =0;
+        for(int i: Tab)
         {
-            if (Tab[i]%2==0)
+            if((i%2)==0)
             {
-                evenTab[i]=Tab[i];
-                System.out.print(evenTab[i]+" | ");
+                size ++;
             }
-
         }
+        int [] evenTab = new int[size];
 
+        int count=0;
+        for (int i : Tab){
+            if((i%2)==0)
+            {
+                evenTab[count] =i;
+                count++;
+            }
+        }
+        for(int value : evenTab)
+        {
+            System.out.print(value+" ");
+        }
     }
 }

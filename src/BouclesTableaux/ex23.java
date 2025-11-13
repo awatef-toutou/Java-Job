@@ -9,22 +9,21 @@ public class ex23 {
     }
     static void carré()
     {
-        int [] Tab ={12,2,34,0,22,98,67,4,22,22};
+        int [] Tab ={1,2,3,4,5,6,7,4,9,10};
         System.out.println("----------------------------------------");
         for (int i: Tab)
         {
-            System.out.print("|"+i+"|");
+            System.out.print(+i+" | ");
         }
         System.out.println();
         System.out.println("-----------------------------------------------");
         for (int i=0; i<10; i++)
         {
-            Tab[i] =Tab[i]*Tab[i];{
-            }
+            Tab[i] =Tab[i]*Tab[i]; //tab[i-1]= mathpowExact(i,2)
         }
         for (int i: Tab)
         {
-            System.out.print("|"+i+"|");
+            System.out.print(+i+" | ");
         }
         System.out.println();
         System.out.println("-----------------------------------------------");

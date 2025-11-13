@@ -1,4 +1,4 @@
-package classJava;
+package classJava.job1;
 //class
 public class Personne {
     int age;
@@ -22,6 +22,10 @@ public class Personne {
     public void displayville()
     {
         System.out.println(villenatale);
+    }
+    public void sePrésenter()
+    {
+        System.out.println("je m'appelle "+nom+" et j'ai "+age);
     }
 }
 

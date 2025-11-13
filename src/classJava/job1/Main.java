@@ -1,4 +1,7 @@
-package classJava;
+package classJava.job1;
+
+import classJava.test.Constructor;
+import classJava.test.Marque;
 
 public class Main {
 
@@ -8,8 +11,14 @@ public class Main {
         M1.display(); //apply the method display to the object M1
         Constructor C = new Constructor("BMW");
         C.display();
+
         Personne P= new Personne(20, "lea", "dupont",1.65, "fille","nice");
         P.displayville();
+        P.sePrésenter();
+        Personne A= new Personne(20, "Alice", "macron",1.8, "fille","Paris");
+        A.age = 30; //j accede à l instance A et changer son attribu  nom
+        A.sePrésenter();
+
     }
 }
 
