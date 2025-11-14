@@ -1,8 +1,8 @@
 package classJava.job10;
 
 public class Rectangle {
-    double largeur;
-    double longueur;
+    public double largeur;
+    public double longueur;
 
     public Rectangle(double largeur, double longueur)
     {
@@ -11,8 +11,10 @@ public class Rectangle {
     }
 
     public double calculerAire()
-    {  double air;
-        air=(largeur*2)+(longueur*2);
+    {
+        double air;
+        air=(largeur*longueur);
         return air;
+
     }
 }
