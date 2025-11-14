@@ -1,4 +1,4 @@
-package classJava.job1;
+package classJava.job123;
 //class
 public class Personne {
     int age;

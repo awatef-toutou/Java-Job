@@ -4,6 +4,14 @@ public class Animal {
     String nom;
     String espece;
 
+
+    public Animal(String nom, String espece)
+    {
+        this.espece=espece;
+        this.nom=nom;
+
+    }
+
     public void parler()
     {
         System.out.println("je suis un "+espece+" et je m'appelle "+nom);
