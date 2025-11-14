@@ -13,6 +13,6 @@ public class CompteClient {
     }
     public void afficheInfo()
     {
-        System.out.println("le compte du "+nomClient+ " a pour solde "+cb);
+        System.out.println("le compte du "+nomClient+ " a pour solde "+cb.solde); // IL  faut appeler l attribu de lobjet ici cb c objet et solde son attibu
     }
 }
