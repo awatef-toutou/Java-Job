@@ -12,5 +12,6 @@ public class Main {
         Chaise.NewChaise inner = new Chaise.NewChaise(); //utiliser une class inner encapsulation
         inner.displaynb();
 
+
     }
 }
