@@ -5,7 +5,5 @@ public class Main {
         Toyota m = new Toyota("Yaris", 130,5);
         m.displayC();
         m.displayV();
-
     }
-
 }
