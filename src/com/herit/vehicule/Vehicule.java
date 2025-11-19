@@ -5,9 +5,4 @@ public class Vehicule {
     public String brand;
     public double speed;
     public int nbPorte;
-
-
-
-
-
 }
