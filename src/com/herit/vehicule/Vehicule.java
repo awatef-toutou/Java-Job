@@ -2,7 +2,12 @@ package com.herit.vehicule;
 
 public class Vehicule {
 
-    private String brand;
-    private double speed;
+    public String brand;
+    public double speed;
+    public int nbPorte;
+
+
+
+
 
 }
