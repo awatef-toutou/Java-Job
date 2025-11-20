@@ -13,9 +13,9 @@ public class Main {
 
         CompteCourant cc = new CompteCourant("lea","dupon","S523",500);
         Transaction add1 = new Dépot(cc);
+
         add1.effectuer(130);
         cc.infos();
-
 
     }
 }
