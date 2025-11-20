@@ -25,10 +25,6 @@ class Child2 extends Parent
     }
 }
 
-
-
-
-
 public class Hierarchical {
     public static void main(String[] args)
     {
