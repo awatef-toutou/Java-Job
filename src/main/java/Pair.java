@@ -1,6 +1,4 @@
-import java.util.ArrayList;
-
-public class Paire {
+public class Pair {
 
     public static void main(String[] args) {
         int n = 0;
@@ -12,9 +10,7 @@ public class Paire {
                 continue;
             }
             System.out.print(n+" ");
-
             count++;
-
             if (count == 5) break;
             n++;
         }
