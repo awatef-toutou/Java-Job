@@ -6,11 +6,7 @@ import java.util.List;
 public class Main {
     public static void main(String[] args)
     {
-
-
-        Create cnx = new Create();
-        cnx.enter();
-
-//        cnx.initUserList();
+        Create.initUserList();
+        Create.enter();
     }
 }
