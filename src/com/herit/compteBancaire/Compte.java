@@ -1,17 +1,16 @@
 package com.herit.compteBancaire;
 
 public class Compte {
-    public String name;
-    public String lastname;
-    public String numCompte;
-    public double solde;
+     public int numCompte = (int)(Math.random()*100);
+     public double solde = 0;
 
 
-    public Compte(String name, String lastname,String numCompte,double solde){
-        this.name = name;
-        this.lastname = lastname;
-        this.numCompte =numCompte;
-        this.solde = solde;
+    @Override
+    public String toString() {
+        return "Compte{" +
+                "numCompte=" + numCompte +
+                ", solde=" + solde +
+                '}';
     }
 
     public double getSolde() {
@@ -31,14 +30,8 @@ public class Compte {
     public void depot(double montant) {
 
         solde +=montant;
-        System.out.println("votre nouveau solde :"+solde);
-    }
 
-    public void infos()
-    {
-        System.out.println("Information sur le compte n°"+numCompte);
-        System.out.println("Titulaire : "+name+" "+lastname);
-        System.out.println("Solde est: "+solde);
+        System.out.println("votre nouveau solde :"+solde);
     }
 
 

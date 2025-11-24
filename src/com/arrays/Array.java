@@ -3,6 +3,7 @@ package com.arrays;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.Random;
 
 public class Array {
@@ -49,7 +50,7 @@ public class Array {
 
         //ArrayList converted to Object[] array
         Object[] objarray = list.toArray(); //on transforme ma list en un tableau
-        System.out.println(Arrays.toString(objarray));
+
 
         //casting
         for (Object obj : objarray) {
@@ -58,10 +59,10 @@ public class Array {
             //ici just une addition de 1 à chaque object
         }
 
-
        int ranndomValue = list.get(new Random().nextInt(list.size()));
+        Integer[] arr= {1, 2, 3, 4};
 
-
-
+        List<Integer> list1 = List.of(arr); //c est de meme que /ArrayList<Integer> list = new ArrayList<>();
+        //on utilise l interface Liste
     }
 }
