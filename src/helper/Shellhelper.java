@@ -8,10 +8,10 @@ public class Shellhelper {
 
     private static final Logger LOGGER  = Logger.getLogger(Shellhelper.class.getName());
     public static final int IVALID_OPTION = -1;
-    private static Scanner scanner = new Scanner(System.in);
+    private static final Scanner scanner = new Scanner(System.in);
 
 
-//on creer l exception pour ne pas bugguer le system
+//on creer l exception pour ne pas buguer le system
     public static int readOption() {
         try {
             return Integer.parseInt(scanner.nextLine());
@@ -22,10 +22,17 @@ public class Shellhelper {
             //() -> String.format("error reading entry : [%s]",exception.getMessage()) );
             return IVALID_OPTION;
         }
-
     }
+
 
     public static String readEntry() {
         return String.valueOf(scanner.nextLine());
+    }
+
+    public static double readDoubleEntry() {
+        return Double.parseDouble(scanner.nextLine());
+
+
+
     }
 }
